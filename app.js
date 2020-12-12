@@ -2,18 +2,18 @@
 //console log();
 
 //camel case
-var myVariableName;
+//var myVariableName;
 
-var myVariableName = "hello, world!";
+//var myVariableName = "hello, world!";
 
-console.log(myVariableName);
+//console.log(myVariableName);
 
-var order; //walk to coffee shop
-order = "black coffee" ; //pace order
+//var order; //walk to coffee shop
+//order = "black coffee" ; //pace order
 
-console.log("Your order of "+ order + " is ready!") //order ready
+//console.log("Your order of "+ order + " is ready!") //order ready
 
-console.log(myVariableName);
+//console.log(myVariableName);
 
 
 var promptQuestion = "What is the best starter Pokemon?";
