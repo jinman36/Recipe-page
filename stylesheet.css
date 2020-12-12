@@ -1,24 +1,39 @@
-* {
-        color:darkblue;
+
+header{
+    padding-left: 850px;
+    outline-style: double;
+    background-color: aqua
+   
+}
+
+section {
+    outline-style: double;
+    background-color: #1B64F0;
+    color: black;
+}
+img {
+    padding-left: 650px;
+}
+p {
+    color:black;
 }
 
 h2 {
-    margin: 15px;
+    padding-left: 650px;
+    outline-style: groove;
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 
 p {
     padding: 15px;
 }
 
-.light-background {
-    background-color: aqua)
+footer {
+    outline-style: double;
+    background-color: aqua ;
 }
 
-.text-white {
-    color: whitesmoke;
-}
-
-.round-element {
 
 
-}
