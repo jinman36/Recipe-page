@@ -2,13 +2,16 @@
 header{
     padding-left: 850px;
     outline-style: double;
-    background-color: aqua
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
    
 }
 
 section {
     outline-style: double;
-    background-color: #1B64F0;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color: black;
 }
 img {
@@ -19,11 +22,12 @@ p {
 }
 
 h2 {
-    padding-left: 650px;
+    padding-left: 750px;
     outline-style: groove;
     margin: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+    )
 }
 
 p {
@@ -32,7 +36,8 @@ p {
 
 footer {
     outline-style: double;
-    background-color: aqua ;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 
