@@ -1,4 +1,4 @@
-// console.log("hello, world") ;
+//console.log("hello, world");
 //console log();
 
 //camel case
@@ -16,15 +16,16 @@
 //console.log(myVariableName);
 
 
-var promptQuestion = "What is the best starter Pokemon?";
+var promptQuestion = "What is your favorite food to BBQ?";
 var response = prompt(promptQuestion);
-console.log(starterPokemon);
+console.log (promptQuestion);
 
-if (response === "Squirtle") {
+if (response === "steak") {
+    alertMessage = "Excellent Choice!";
     console.log("excellent choice!")
-} else if (response === "bulbasar") {
-    console.log("I mean ok.. sure.");
-else {
-    console.log("no, you are worng.")
+} else if (response === "hamburgers") {
+    console.log("You should try steak");
+}else {
+    console.log("Did you misspell steak?")
 
 }
