@@ -20,6 +20,7 @@ var promptQuestion = "What is your favorite food to BBQ?";
 var response = prompt(promptQuestion);
 console.log (response);
 var reflected;
+color = 
 
 if (response === "steak") {
     reflected = "excellent choice!"
