@@ -21,7 +21,6 @@ var response = prompt(promptQuestion);
 console.log (response);
 var reflected;
 var color;
-var testSize;
 var alertMessage;
 
 if (response === "steak") {
@@ -31,7 +30,6 @@ if (response === "steak") {
     console.log = (response)
     alertMessage = "Check out page for better options!"
     reflected = "You should try steak";
-    textsize = "x-large"
     color = "#00FF00";
     
 }else {
@@ -47,4 +45,4 @@ alert(alertMessage);
 
 element.innerText = reflected;
 element.style.color = color;
-element.style.fontsize = textsize
+

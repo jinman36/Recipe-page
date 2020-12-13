@@ -62,6 +62,18 @@ table {
 
 }
 
+form {
+    padding-left: 700px;
+    outline-style: groove;
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(255,255,255);
+    background-color: lightslategray;
+    color: lightblue;
+    margin: 50px;
+
+}
+
 footer {
     outline-style: double;
     background: rgb(2,0,36);
