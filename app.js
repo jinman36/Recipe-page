@@ -16,7 +16,7 @@
 //console.log(myVariableName);
 
 
-var promptQuestion = "What is your favorite food to BBQ?";
+var promptQuestion = "For a BBQ, would you chose Steak, Hamburgers, or something different?";
 var response = prompt(promptQuestion);
 console.log (response);
 var reflected;

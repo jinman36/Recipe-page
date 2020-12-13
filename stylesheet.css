@@ -14,6 +14,15 @@ li {
 }
 
 section {
+    padding-left: 50px;
+    outline-style: double;
+    background-color: rgb(2,0,36);
+    color: black;
+    
+
+}
+
+section {
     outline-style: double;
     background: rgb(2,0,36);
 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
@@ -21,7 +30,7 @@ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba
 }
 
 img {
-    padding-left: 650px;
+    padding-left: 600px;
     padding-top: 50px;
     border-radius: 25%
 
@@ -39,6 +48,18 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(9,62,121,0.44861694677871145) 35%, rgba(34,120,138,1) 100%); 
+}
+
+table {
+    padding-left: 20px;
+    outline-style: groove;
+    margin: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(255,255,255);
+    background-color: lightslategray;
+    color: lightblue;
+    margin-left: 800px;
+
 }
 
 footer {
