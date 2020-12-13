@@ -18,14 +18,18 @@
 
 var promptQuestion = "What is your favorite food to BBQ?";
 var response = prompt(promptQuestion);
-console.log (promptQuestion);
+console.log (response);
+var reflected;
 
 if (response === "steak") {
-    alertMessage = "Excellent Choice!";
-    console.log("excellent choice!")
+    reflected = "excellent choice!"
 } else if (response === "hamburgers") {
-    console.log("You should try steak");
+    reflected = "You should try steak";
 }else {
-    console.log("Did you misspell steak?")
+    reflected = "Did you misspell steak?"
 
 }
+
+var element = document.getElementById('response')
+
+element.innerText = reflected;
