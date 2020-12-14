@@ -55,6 +55,7 @@ p {
 }
 
 table {
+    padding-inline: 5;
     outline-style: groove;
     padding-left: 600px;
     padding-right: 600px ;
