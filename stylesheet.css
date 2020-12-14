@@ -4,7 +4,7 @@ body {
 
 header{
     outline-style: double;
-    padding-left: 850px;
+    text-align: center;
     background: rgb(255,255,255);
 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(9,62,121,0.44861694677871145) 35%, rgba(34,120,138,1) 100%);
   
@@ -13,72 +13,86 @@ li {
     list-style-type: none;
 }
 
-section {
-    padding-left: 50px;
-    outline-style: double;
-    background-color: rgb(2,0,36);
-    color: black;
-    
-
-}
-
-section {
-    outline-style: double;
-    background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    color: black;
-}
-
-img {
-    padding-left: 600px;
-    padding-top: 50px;
-    border-radius: 25%
-
-}
-
-p {
-    color:black;
-    padding: 15px
+.column {
+    float: left;
+    width: 33%;
+    text align: center;
 }
 
 h2 {
-    padding-left: 700px;
+    padding-left: 0px;
+    margin: 0px;
     outline-style: groove;
-    margin: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(9,62,121,0.44861694677871145) 35%, rgba(34,120,138,1) 100%); 
 }
 
+#response {
+    text-align: center;
+}
+
+section {
+    outline-style: double;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: black;
+}
+
+img {
+    height: 550px;
+    width: 50%
+    img-align:fit-content;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 55%
+}
+
+p {
+    color:black;
+    outline-style: double;
+    padding: 0px
+}
+
 table {
-    padding-left: 20px;
     outline-style: groove;
-    margin: 50px;
+    text align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: rgb(255,255,255);
     background-color: lightslategray;
     color: lightblue;
-    margin-left: 700px;
-
 }
 
 form {
-    padding-left: 700px;
-    outline-style: groove;
-    margin: 50px;
+    outline-style: double;
+    text align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: rgb(255,255,255);
     background-color: lightslategray;
     color: lightblue;
-    margin: 50px;
 
 }
+.clearfix::after {
+    content: "column";
+    clear: both;
+    display: table;
+}
 
+.column {
+    float: left;
+    width: 50%;
+    text align: center;
+    
+}
 footer {
     outline-style: double;
+    text-align: right;
     background: rgb(2,0,36);
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 35%, rgba(0,212,255,1) 100%);
 }
+
+
 
 
 
