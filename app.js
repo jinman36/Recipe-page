@@ -71,4 +71,7 @@ if (hourNow > 18) {
     greetings = 'Selamat!';
 }
 
-document.write('<h3>' + greetings + '</h3>');
+function sayHello() {
+    document.write('hello');
+}
+sayHello();
