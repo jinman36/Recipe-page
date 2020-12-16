@@ -26,6 +26,13 @@ function addLogicBelow (response) {
 }
 addLogicBelow (response);
 
+var numberOfHamburgers = "How many Stars would you rate us?";
+var response = prompt(promptQuestion);
+var numberOfHamburgers = promptQuestion ("How Many stars would you rate us?")
 
 
+    for (var s = 0; s <= NumberOfHamburgers; i++) {
+        console.log(i)
+        addStarsToDocument("img src=hamburger.jpeg")
+    }
 
