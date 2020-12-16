@@ -22,19 +22,19 @@ var textSize;
 var alertMessage;
 
 if (response === "steak") {
-   // alertMessage = "Excellent!"
+    alertMessage = "Excellent!"
     reflected = "excellent choice! - Check the schedule below to make sure you are here on the right day!"
     textSize = "xx-large"
     backgroundColor = "aqua"
 } else if (response === "hamburgers") {
-   // console.log = (response)
-   // alertMessage = "Check out page for better options!"
+    console.log = (response)
+    alertMessage = "Check out page for better options!"
     reflected = "You should try steak - Be sure to check schedule below!";
     textColor = "#00FF00";
     backgroundColor = "blue"
     
 }else {
-   // alertMessage = "Check out page for better options!"
+    alertMessage = "Check out page for better options!"
     reflected = "Did you misspell steak? If not, look below for our meal specials!"
     textColor = "#FF0000";
     backgroundColor = "black";
