@@ -33,10 +33,10 @@ function getUserPrompt (message){
 }
 
 function validateUserPassword() {
-    var storedPassword = "twizted bbq";
+    var storedPassword = "yes";
     
     do {
-        var passwd = getUserPrompt("Wheres the best BBQ?");
+        var passwd = getUserPrompt("Is Twizted BBQ the Best?");
     } while(passwd !== storedPassword);
 
 }
@@ -49,11 +49,21 @@ function getUserRating (m){
     return response;
 }
 
-var addhamburgers = getUserPrompt("How many stars will you give us?");
-    for (var i = 0; i <= addHamburgers; i++) {
-        console.log();
-        
-    }
+function myMessage(response) {
+    var alertMessage = "We give you " + response + " stars too!";
 
-addHamburgers();
+    if (response === "")
+    alertMessage = "we still give you 5 stars!";
+
+    alert(alertMessage);
+}
+getUserRating();
+
+//var addhamburgers = getUserPrompt("How many stars will you give us?");
+///    for (var i = 0; i <= addHamburgers; i++) {
+//console.log();
+        
+//    }
+
+//addHamburgers();
 addLogicBelow (response);
