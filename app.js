@@ -20,7 +20,7 @@ function addLogicBelow (response) {
     } else if (response === "hamburgers") {
         color = "blue";
     } else {
-        color = "green";
+        color = " rgba(0,212,255,1) 100%)";
     }
     document.getElementById("content").style.backgroundColor = color;
     
@@ -59,10 +59,13 @@ function getUserRating (m){
 
 getUserRating();
 
+
+
 function myMessage(response) {
     var alertMessage = "We give you " + response + " stars too!";
 
     if (response === "")
+
     alertMessage = "we still give you 5 stars!";
 
     alert(alertMessage);
@@ -71,8 +74,8 @@ function myMessage(response) {
 
 function addHamburgersToDocument() {
     var addHamburgersToDocument = prompt("the real question is: how many steaks would you like?");
-    //1. decalare the index variable
-    //2. set our loop condition
+    //1. declare the index variable
+    //2. set loop condition
     //3. index incrementor
     for (var i = 0; i < addHamburgersToDocument; i++) {
         console.log(i);
