@@ -40,6 +40,7 @@ function validateUserPassword() {
     } while(passwd !== storedPassword);
 
 }
+validateUserPassword();
 
 function getUserRating (m){
     var promptQuestion = "How Many Stars Should We Get?"
@@ -55,5 +56,4 @@ var addhamburgers = getUserPrompt("How many stars will you give us?");
     }
 
 addHamburgers();
-validateUserPassword();
 addLogicBelow (response);
