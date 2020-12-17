@@ -74,7 +74,7 @@ function addHamburgersToDocument() {
     //1. decalare the index variable
     //2. set our loop condition
     //3. index incrementor
-    for (var i = 0; i = addHamburgersToDocument; i++) {
+    for (var i = 0; i < addHamburgersToDocument; i++) {
         console.log(i);
         document.write('<img src="Food Pictures/BBQ steak.jpg">') ;
 
