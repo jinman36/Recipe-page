@@ -70,7 +70,7 @@ function myMessage(response) {
     }
 
 function addHamburgersToDocument() {
-    var addHamburgersToDocument = prompt("the real question is how many hamburgers would you give us?");
+    var addHamburgersToDocument = prompt("the real question is: how many steaks would you like?");
     //1. decalare the index variable
     //2. set our loop condition
     //3. index incrementor
