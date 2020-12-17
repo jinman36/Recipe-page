@@ -23,16 +23,37 @@ function addLogicBelow (response) {
         color = "green";
     }
     document.getElementById("content").style.backgroundColor = color;
+   
 }
-addLogicBelow (response);
 
-var numberOfHamburgers = "How many Stars would you rate us?";
-var response = prompt(promptQuestion);
-var numberOfHamburgers = promptQuestion ("How Many stars would you rate us?")
+function getUserPrompt (message){
+    var userInput = prompt(message);
+    return userInput;
 
+}
 
-    for (var s = 0; s <= NumberOfHamburgers; i++) {
-        console.log(i)
-        addStarsToDocument("img src=hamburger.jpeg")
+function validateUserPassword() {
+    var storedPassword = "twizted bbq";
+    
+    do {
+        var passwd = getUserPrompt("Wheres the best BBQ?");
+    } while(passwd !== storedPassword);
+
+}
+
+function getUserRating (m){
+    var promptQuestion = "How Many Stars Should We Get?"
+    var response = prompt(promptQuestion);
+    myMessage(response);
+    return response;
+}
+
+var addhamburgers = getUserPrompt("How many stars will you give us?");
+    for (var i = 0; i <= addHamburgers; i++) {
+        console.log();
+        
     }
 
+addHamburgers();
+validateUserPassword();
+addLogicBelow (response);
