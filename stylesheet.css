@@ -1,16 +1,21 @@
 body {
     background-color: black;
+    text-align: center;
 }
 
 header{
-    outline-style: double;
     text-align: center;
-    background: blue;
-  
+    outline-style: double;
+    background: blue;  
+}
+
+script {
+    text-align: center;
 }
 
 li {
     list-style-type: none;
+    text-align: center;
 }
 
 .column {
@@ -40,18 +45,15 @@ section {
 
 img {
     height: 550px;
-    width: 50%
-    img-align:fit-content;
     padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
-    border-radius: 55%
+    border-radius: 55%;
 }
 
 p {
     color:black;
     outline-style: double;
-    padding: 0px
 }
 
 table {
@@ -72,8 +74,8 @@ form {
     background: rgb(255,255,255);
     background-color: rgb(34, 103, 172);
     color: lightblue;
-
 }
+
 .clearfix::after {
     content: "column";
     clear: both;
@@ -83,9 +85,9 @@ form {
 .column {
     float: left;
     width: 50%;
-    text align: center;
-    
+    text align: center;  
 }
+
 footer {
     outline-style: double;
     text-align: right;

@@ -64,29 +64,29 @@ function myMessage(response) {
    var alertMessage = "We give you " + response + " stars too!";
 
     if (response === "")
-
+    
     alertMessage = "we still give you 5 stars!";
 
-    alert(alertMessage);
+    //alert(alertMessage);
 
     document.write(alertMessage);
     
 }
 
-//function addHamburgersToDocument() {
-//   var addHamburgersToDocument = prompt("the real question is: how many steaks would you like?");
+function addHamburgersToDocument() {
+   var addHamburgersToDocument = prompt("the real question is: how many steaks would you like?");
     //1. declare the index variable
     //2. set loop condition
     //3. index incrementor
-//    for (var i = 0; i < addHamburgersToDocument; i++) {
-//        console.log(i);
-//        document.write('<img src="Food Pictures/BBQ steak.jpg">') ;
+    for (var i = 0; i < addHamburgersToDocument; i++) {
+        console.log(i);
+        document.write('<img src="Food Pictures/BBQ steak.jpg">') ;
 
-//   }
-//}
+   }
+}
 
 
-//addHamburgersToDocument();
+addHamburgersToDocument();
 
 //function testValidate() {
 //    var a = 42 {
@@ -98,19 +98,19 @@ function myMessage(response) {
 
 var today = new Date ();
 var hourNow = today.getHours();
-var greetings;
+var greeting;
 
 
-function timedGreeting(){
-if (hourNow > 18) {
-    greetings - 'Salamat Malam!';
-} else if (hourNow > 12) {
-    greetings = 'Selamat Sore!';
-} else if (hourNow > 0) {
-    greetings = 'Selamat Pagi!';
-} else {
-    greetings = 'Selamat!';
-}
-}
 
-timedGreeting()
+    if (hourNow > 18) {
+        greeting = 'Salamat Malam!';
+    } else if (hourNow > 12) {
+        greeting = 'Selamat Sore!';
+    } else if (hourNow > 0) {
+        greeting = 'Selamat Pagi!';
+    } else {
+        greeting = 'Selamat!';
+    }
+
+    document.write('<h3>' + greeting + '</h3>');
+
