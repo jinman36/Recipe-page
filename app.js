@@ -7,53 +7,52 @@
 
 //updateMessage(msg);
 
-var promptQuestion = "For a BBQ, would you chose Steak, Hamburgers, or something different?";
-var response = prompt(promptQuestion);
-var color;
+//var promptQuestion = "For a BBQ, would you chose Steak, Hamburgers, or something different?";
+//var response = prompt(promptQuestion);
+//var color;
 
-function addLogicBelow (response) {
+//function addLogicBelow (response) {
     
-    response = response.toLowerCase()
+//    response = response.toLowerCase()
     
-    if (response === "steak") {
-        color = "aqua";
-    } else if (response === "hamburgers") {
-        color = "blue";
-    } else {
-        color = " rgba(0,212,255,1) 100%)";
-    }
-    document.getElementById("content").style.backgroundColor = color;
+//    if (response === "steak") {
+//        color = "aqua";
+//    } else if (response === "hamburgers") {
+//        color = "blue";
+//    } else {
+//        color = " rgba(0,212,255,1) 100%)";
+//    }
+//    document.getElementById("content").style.backgroundColor = color;
     
-}
+//}
 
-addLogicBelow (response);
+//addLogicBelow (response);
 
 
 
-function getUserPrompt (message){
-    var userInput = prompt(message);
-    return userInput;
+//function getUserPrompt (message){
+//    var userInput = prompt(message);
+ //   return userInput;
 
-}
+//}
 
-function validateUserPassword() {
-    var storedPassword = "yes";
+//function validateUserPassword() {
+//    var storedPassword = "yes";
     
-    do {
-        var passwd = getUserPrompt("Is Twizted BBQ the Best?");
-    } while(passwd !== storedPassword);
+ //   do {
+ //       var passwd = getUserPrompt("Is Twizted BBQ the Best?");
+//    } while(passwd !== storedPassword);
 
-}
+//}
 
-validateUserPassword();
-
+//validateUserPassword();
 
 
 function getUserRating (m){
-    var promptQuestion = "How Many Stars Should We Get?"
-    var response = prompt(promptQuestion);
-    myMessage(response);
-    return response;
+   var promptQuestion = "How Many Stars Do We Rate?"
+   var response = prompt(promptQuestion);
+   myMessage(response);
+   return response;
 
 }
 
@@ -62,27 +61,37 @@ getUserRating();
 
 
 function myMessage(response) {
-    var alertMessage = "We give you " + response + " stars too!";
+   var alertMessage = "We give you " + response + " stars too!";
 
     if (response === "")
 
     alertMessage = "we still give you 5 stars!";
 
     alert(alertMessage);
-    
-    }
 
-function addHamburgersToDocument() {
-    var addHamburgersToDocument = prompt("the real question is: how many steaks would you like?");
+    document.write(alertMessage);
+    
+}
+
+//function addHamburgersToDocument() {
+//   var addHamburgersToDocument = prompt("the real question is: how many steaks would you like?");
     //1. declare the index variable
     //2. set loop condition
     //3. index incrementor
-    for (var i = 0; i < addHamburgersToDocument; i++) {
-        console.log(i);
-        document.write('<img src="Food Pictures/BBQ steak.jpg">') ;
+//    for (var i = 0; i < addHamburgersToDocument; i++) {
+//        console.log(i);
+//        document.write('<img src="Food Pictures/BBQ steak.jpg">') ;
 
-    }
-}
+//   }
+//}
 
 
-addHamburgersToDocument();
+//addHamburgersToDocument();
+
+//function testValidate() {
+//    var a = 42 {
+//    console.log(i);
+//    }
+//}
+
+//testValidate()
