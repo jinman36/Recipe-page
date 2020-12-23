@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-header{
+header {
     text-align: center;
     outline-style: double;
     background: blue;  
@@ -16,12 +16,6 @@ script {
 li {
     list-style-type: none;
     text-align: center;
-}
-
-.column {
-    float: left;
-    width: 33%;
-    text align: center;
 }
 
 h2 {
@@ -85,7 +79,6 @@ form {
 .column {
     float: left;
     width: 50%;
-    text align: center;  
 }
 
 footer {
